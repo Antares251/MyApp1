@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "w1PgYShMyLo=",
+  "dgSpecHash": "M5Xb1s6FnPQ=",
   "success": true,
   "projectFilePath": "C:\\Users\\Antares\\Documents\\Proyectos Topicos\\MyApp01\\MyApp01\\MyApp01.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Antares\\.nuget\\packages\\csvhelper\\33.1.0\\csvhelper.33.1.0.nupkg.sha512"
+  ],
   "logs": []
 }

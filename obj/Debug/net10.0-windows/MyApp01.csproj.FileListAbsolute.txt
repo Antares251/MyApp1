@@ -12,3 +12,9 @@ C:\Users\Antares\Documents\Proyectos Topicos\MyApp01\MyApp01\obj\Debug\net10.0-w
 C:\Users\Antares\Documents\Proyectos Topicos\MyApp01\MyApp01\obj\Debug\net10.0-windows\MyApp01.pdb
 C:\Users\Antares\Documents\Proyectos Topicos\MyApp01\MyApp01\obj\Debug\net10.0-windows\MyApp01.genruntimeconfig.cache
 C:\Users\Antares\Documents\Proyectos Topicos\MyApp01\MyApp01\obj\Debug\net10.0-windows\ref\MyApp01.dll
+C:\Users\Antares\Documents\Proyectos Topicos\MyApp01\MyApp01\obj\Debug\net10.0-windows\MyApp01.Form1.resources
+C:\Users\Antares\Documents\Proyectos Topicos\MyApp01\MyApp01\obj\Debug\net10.0-windows\MyApp01.csproj.GenerateResource.cache
+C:\Users\Antares\Documents\Proyectos Topicos\MyApp01\MyApp01\obj\Debug\net10.0-windows\MyApp01.sourcelink.json
+C:\Users\Antares\Documents\Proyectos Topicos\MyApp01\MyApp01\obj\Debug\net10.0-windows\MyApp01.csproj.AssemblyReference.cache
+C:\Users\Antares\Documents\Proyectos Topicos\MyApp01\MyApp01\bin\Debug\net10.0-windows\CsvHelper.dll
+C:\Users\Antares\Documents\Proyectos Topicos\MyApp01\MyApp01\obj\Debug\net10.0-windows\MyApp01.csproj.Up2Date

@@ -18,14 +18,18 @@ public partial class Form2 : Form
 
     private void btnActualizar_Click(object sender, EventArgs e)
     {
-        ActualizaNombre = txtNombre.Text;
-        ActualizaCorreo = txtCorreo.Text;
-        this.DialogResult = DialogResult.OK;
-        this.Close();
     }
 
     private void btnSalir_Click(object sender, EventArgs e)
     {
+        this.Close();
+    }
+
+    private void btnActualizar_Click_1(object sender, EventArgs e)
+    {
+        ActualizaNombre = txtNombre.Text;
+        ActualizaCorreo = txtCorreo.Text;
+        this.DialogResult = DialogResult.OK;
         this.Close();
     }
 }

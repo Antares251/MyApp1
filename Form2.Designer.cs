@@ -77,6 +77,7 @@ partial class Form2
         btnActualizar.TabIndex = 4;
         btnActualizar.Text = "Actualizar";
         btnActualizar.UseVisualStyleBackColor = true;
+        btnActualizar.Click += btnActualizar_Click_1;
         // 
         // btnSalir
         // 

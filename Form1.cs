@@ -12,4 +12,10 @@ public partial class Form1 : Form
         frmAgregar agregar = new frmAgregar();
         agregar.Show();
     }
+
+    private void informacionToolStripMenuItem_Click(object sender, EventArgs e)
+    {
+        frmInformacion info = new frmInformacion();
+        info.Show();
+    }
 }

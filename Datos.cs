@@ -1,3 +1,4 @@
+using System.Data;
 using System.Data.SqlClient;
 namespace MyApp01;
 
@@ -41,5 +42,22 @@ public class Datos
             Console.WriteLine("Error: " + ex.ToString());
             return false;
         }            
+    }
+    
+    public DataSet Informacion(String comando)
+    {
+        DataSet ds = null;
+        try
+        {
+            conexion.Open();
+            SqlDataAdapter da = new SqlDataAdapter(comando,conexion);
+            da.Fill(ds);
+            conexion.Close();
+            return ds;
+        }
+        catch(Exception ex){
+            Console.WriteLine("Error: "+ ex.ToString());
+            return null;
+        }
     }
 }

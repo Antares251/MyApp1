@@ -33,13 +33,15 @@ partial class Form1
         toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
         agregarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
         salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+        agendaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+        informacionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
         menuStrip1.SuspendLayout();
         SuspendLayout();
         // 
         // menuStrip1
         // 
         menuStrip1.ImageScalingSize = new System.Drawing.Size(32, 32);
-        menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] { toolStripMenuItem1 });
+        menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] { toolStripMenuItem1, agendaToolStripMenuItem });
         menuStrip1.Location = new System.Drawing.Point(0, 0);
         menuStrip1.Name = "menuStrip1";
         menuStrip1.Size = new System.Drawing.Size(463, 42);
@@ -56,15 +58,29 @@ partial class Form1
         // agregarToolStripMenuItem
         // 
         agregarToolStripMenuItem.Name = "agregarToolStripMenuItem";
-        agregarToolStripMenuItem.Size = new System.Drawing.Size(359, 44);
+        agregarToolStripMenuItem.Size = new System.Drawing.Size(231, 44);
         agregarToolStripMenuItem.Text = "Agregar";
         agregarToolStripMenuItem.Click += agregarToolStripMenuItem_Click;
         // 
         // salirToolStripMenuItem
         // 
         salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-        salirToolStripMenuItem.Size = new System.Drawing.Size(359, 44);
+        salirToolStripMenuItem.Size = new System.Drawing.Size(231, 44);
         salirToolStripMenuItem.Text = "Salir";
+        // 
+        // agendaToolStripMenuItem
+        // 
+        agendaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] { informacionToolStripMenuItem });
+        agendaToolStripMenuItem.Name = "agendaToolStripMenuItem";
+        agendaToolStripMenuItem.Size = new System.Drawing.Size(116, 38);
+        agendaToolStripMenuItem.Text = "Agenda";
+        // 
+        // informacionToolStripMenuItem
+        // 
+        informacionToolStripMenuItem.Name = "informacionToolStripMenuItem";
+        informacionToolStripMenuItem.Size = new System.Drawing.Size(359, 44);
+        informacionToolStripMenuItem.Text = "Informacion";
+        informacionToolStripMenuItem.Click += informacionToolStripMenuItem_Click;
         // 
         // Form1
         // 
@@ -79,6 +95,9 @@ partial class Form1
         ResumeLayout(false);
         PerformLayout();
     }
+
+    private System.Windows.Forms.ToolStripMenuItem agendaToolStripMenuItem;
+    private System.Windows.Forms.ToolStripMenuItem informacionToolStripMenuItem;
 
     private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
     private System.Windows.Forms.ToolStripMenuItem agregarToolStripMenuItem;

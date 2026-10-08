@@ -12,3 +12,28 @@ C:\Users\Antares\Documents\Proyectos Topicos\MyApp01\MyApp01\obj\Debug\net10.0-w
 C:\Users\Antares\Documents\Proyectos Topicos\MyApp01\MyApp01\obj\Debug\net10.0-windows\MyApp01.pdb
 C:\Users\Antares\Documents\Proyectos Topicos\MyApp01\MyApp01\obj\Debug\net10.0-windows\MyApp01.genruntimeconfig.cache
 C:\Users\Antares\Documents\Proyectos Topicos\MyApp01\MyApp01\obj\Debug\net10.0-windows\ref\MyApp01.dll
+C:\Users\antares\Documents\Topicos\MyApp1\bin\Debug\net10.0-windows\MyApp01.exe
+C:\Users\antares\Documents\Topicos\MyApp1\bin\Debug\net10.0-windows\MyApp01.deps.json
+C:\Users\antares\Documents\Topicos\MyApp1\bin\Debug\net10.0-windows\MyApp01.runtimeconfig.json
+C:\Users\antares\Documents\Topicos\MyApp1\bin\Debug\net10.0-windows\MyApp01.dll
+C:\Users\antares\Documents\Topicos\MyApp1\bin\Debug\net10.0-windows\MyApp01.pdb
+C:\Users\antares\Documents\Topicos\MyApp1\bin\Debug\net10.0-windows\System.Data.SqlClient.dll
+C:\Users\antares\Documents\Topicos\MyApp1\bin\Debug\net10.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\antares\Documents\Topicos\MyApp1\bin\Debug\net10.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\antares\Documents\Topicos\MyApp1\bin\Debug\net10.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\antares\Documents\Topicos\MyApp1\bin\Debug\net10.0-windows\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\antares\Documents\Topicos\MyApp1\bin\Debug\net10.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\antares\Documents\Topicos\MyApp1\obj\Debug\net10.0-windows\MyApp01.csproj.AssemblyReference.cache
+C:\Users\antares\Documents\Topicos\MyApp1\obj\Debug\net10.0-windows\MyApp01.Form1.resources
+C:\Users\antares\Documents\Topicos\MyApp1\obj\Debug\net10.0-windows\MyApp01.csproj.GenerateResource.cache
+C:\Users\antares\Documents\Topicos\MyApp1\obj\Debug\net10.0-windows\MyApp01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\antares\Documents\Topicos\MyApp1\obj\Debug\net10.0-windows\MyApp01.AssemblyInfoInputs.cache
+C:\Users\antares\Documents\Topicos\MyApp1\obj\Debug\net10.0-windows\MyApp01.AssemblyInfo.cs
+C:\Users\antares\Documents\Topicos\MyApp1\obj\Debug\net10.0-windows\MyApp01.csproj.CoreCompileInputs.cache
+C:\Users\antares\Documents\Topicos\MyApp1\obj\Debug\net10.0-windows\MyApp01.sourcelink.json
+C:\Users\antares\Documents\Topicos\MyApp1\obj\Debug\net10.0-windows\MyApp01.csproj.Up2Date
+C:\Users\antares\Documents\Topicos\MyApp1\obj\Debug\net10.0-windows\MyApp01.dll
+C:\Users\antares\Documents\Topicos\MyApp1\obj\Debug\net10.0-windows\refint\MyApp01.dll
+C:\Users\antares\Documents\Topicos\MyApp1\obj\Debug\net10.0-windows\MyApp01.pdb
+C:\Users\antares\Documents\Topicos\MyApp1\obj\Debug\net10.0-windows\MyApp01.genruntimeconfig.cache
+C:\Users\antares\Documents\Topicos\MyApp1\obj\Debug\net10.0-windows\ref\MyApp01.dll

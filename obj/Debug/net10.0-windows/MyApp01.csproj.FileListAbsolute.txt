@@ -36,3 +36,5 @@ C:\Users\antares\Documents\Topicos\MyApp1\obj\Debug\net10.0-windows\MyApp01.pdb
 C:\Users\antares\Documents\Topicos\MyApp1\obj\Debug\net10.0-windows\MyApp01.genruntimeconfig.cache
 C:\Users\antares\Documents\Topicos\MyApp1\obj\Debug\net10.0-windows\ref\MyApp01.dll
 C:\Users\antares\Documents\Topicos\MyApp1\bin\Debug\net10.0-windows\SQLConnection.dll
+C:\Users\antares\Documents\Topicos\MyApp1\obj\Debug\net10.0-windows\MyApp01.frmInformacion.resources
+C:\Users\antares\Documents\Topicos\MyApp1\obj\Debug\net10.0-windows\MyApp01.csproj.GenerateResource.cache

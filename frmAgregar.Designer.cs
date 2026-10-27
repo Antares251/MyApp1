@@ -138,6 +138,7 @@ partial class frmAgregar
         btnCerrar.TabIndex = 11;
         btnCerrar.Text = "Cerrar";
         btnCerrar.UseVisualStyleBackColor = true;
+        btnCerrar.Click += btnCerrar_Click;
         // 
         // frmAgregar
         // 

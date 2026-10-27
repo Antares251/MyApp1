@@ -52,7 +52,7 @@ public partial class frmInformacion : Form
 
     private void btnAgregar_Click(object sender, EventArgs e)
     {
-        using frmAgregar frmAgg = new frmAgregar();
+        frmAgregar frmAgg = new frmAgregar();
         if (frmAgg.ShowDialog(this) == DialogResult.OK)
         {
             ActualizarGrid();
@@ -69,15 +69,7 @@ public partial class frmInformacion : Form
         bool tieneClave = TryGetClave(registro, out string columnaClave, out object valorClave);
         object[] valoresOriginales = obtenerValores(registro);
 
-        using frmAgregar frmModificar = new frmAgregar(
-            Convert.ToString(registro["nombre"]) ?? string.Empty,
-            Convert.ToString(registro["paterno"]) ?? string.Empty,
-            Convert.ToString(registro["materno"]) ?? string.Empty,
-            Convert.ToString(registro["telefono"]) ?? string.Empty,
-            Convert.ToString(registro["correo"]) ?? string.Empty,
-            tieneClave ? columnaClave : null,
-            valorClave,
-            valoresOriginales);
+        frmAgregar frmModificar = new frmAgregar(Convert.ToString(registro["nombre"]) ?? string.Empty, Convert.ToString(registro["paterno"]) ?? string.Empty, Convert.ToString(registro["materno"]) ?? string.Empty, Convert.ToString(registro["telefono"]) ?? string.Empty, Convert.ToString(registro["correo"]) ?? string.Empty, tieneClave ? columnaClave : null, valorClave, valoresOriginales);
 
         if (frmModificar.ShowDialog(this) == DialogResult.OK)
         {
@@ -145,15 +137,14 @@ public partial class frmInformacion : Form
     private static string CrearFiltroPorValores()
     {
         string[] columnas = { "nombre", "paterno", "materno", "telefono", "correo" };
-        return string.Join(" AND ", columnas.Select((columna, indice) =>
-            $"([{columna}]=@original{indice} OR ([{columna}] IS NULL AND @original{indice} IS NULL))"));
+        return string.Join(" AND ", columnas.Select((columna, indice) => $"([{columna}]= {indice} OR ([{columna}] IS NULL AND @original{indice} IS NULL))"));
     }
 
     private static void AgregarParametrosOriginales(SqlCommand comando, object[] valores)
     {
         for (int indice = 0; indice < valores.Length; indice++)
         {
-            comando.Parameters.AddWithValue($"@original{indice}", valores[indice]);
+            comando.Parameters.AddWithValue($"{indice}", valores[indice]);
         }
     }
 

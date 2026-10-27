@@ -80,19 +80,13 @@ public partial class frmAgregar : Form
         bool resultado = datos.ejecutar(comando);
         if (resultado)
         {
-            MessageBox.Show(updateMode
-                ? "Registro modificado correctamente"
-                : "Registro agregado correctamente");
+            MessageBox.Show(updateMode ? "Registro modificado correctamente" : "Registro agregado correctamente");
             DialogResult = DialogResult.OK;
             Close();
         }
         else
         {
-            MessageBox.Show(updateMode
-                ? columnaClave == null
-                    ? "No se modificó el registro. Puede haber cambiado o existir otro contacto con los mismos datos."
-                    : "Error al modificar el registro"
-                : "Error al agregar el registro");
+            MessageBox.Show(updateMode ? columnaClave == null ? "No se modifico el registro" : "Error al modificar el registro" : "Error al agregar el registro");
         }
     }
 
@@ -104,8 +98,7 @@ public partial class frmAgregar : Form
     private string CrearFiltroPorValores()
     {
         string[] columnas = { "nombre", "paterno", "materno", "telefono", "correo" };
-        return string.Join(" AND ", columnas.Select((columna, indice) =>
-            $"([{columna}]=@original{indice} OR ([{columna}] IS NULL AND @original{indice} IS NULL))"));
+        return string.Join(" AND ", columnas.Select((columna, indice) => $"([{columna}]=@original{indice} OR ([{columna}] IS NULL AND @original{indice} IS NULL))"));
     }
 
     private void AgregarParametrosOriginales(SqlCommand comando)

@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v10.0": {
       "MyApp01/1.0.0": {
         "dependencies": {
+          "SqlConnection": "1.0.4",
           "System.Data.SqlClient": "4.9.1"
         },
         "runtime": {
@@ -45,6 +46,17 @@
             "rid": "win-x86",
             "assetType": "native",
             "fileVersion": "4.6.25512.1"
+          }
+        }
+      },
+      "SqlConnection/1.0.4": {
+        "dependencies": {
+          "System.Data.SqlClient": "4.9.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLConnection.dll": {
+            "assemblyVersion": "1.0.4.0",
+            "fileVersion": "1.0.4.0"
           }
         }
       },
@@ -108,6 +120,13 @@
       "sha512": "sha512-YhEdSQUsTx+C8m8Bw7ar5/VesXvCFMItyZF7G1AUY+OM0VPZUOeAVpJ4Wl6fydBGUYZxojTDR3I6Bj/+BPkJNA==",
       "path": "runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0",
       "hashPath": "runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+    },
+    "SqlConnection/1.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JDjswSKyrDs/A32Wq1Dsu/5VDQNLPWuVsCJzFilTKFMzTW2kLxroRtHNtEvZ1ZyYhomp1EGAqgJRIM9NI7c0Vw==",
+      "path": "sqlconnection/1.0.4",
+      "hashPath": "sqlconnection.1.0.4.nupkg.sha512"
     },
     "System.Data.SqlClient/4.9.1": {
       "type": "package",

@@ -32,8 +32,8 @@ partial class frmInformacion
     private void InitializeComponent()
     {
         splitContainer1 = new System.Windows.Forms.SplitContainer();
-        btnCerrar = new System.Windows.Forms.Button();
         dgvInformacion = new System.Windows.Forms.DataGridView();
+        btnCerrar = new System.Windows.Forms.Button();
         ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
         splitContainer1.Panel1.SuspendLayout();
         splitContainer1.Panel2.SuspendLayout();
@@ -60,15 +60,6 @@ partial class frmInformacion
         splitContainer1.TabIndex = 0;
         splitContainer1.Text = "splitContainer1";
         // 
-        // btnCerrar
-        // 
-        btnCerrar.Location = new System.Drawing.Point(549, 56);
-        btnCerrar.Name = "btnCerrar";
-        btnCerrar.Size = new System.Drawing.Size(191, 42);
-        btnCerrar.TabIndex = 0;
-        btnCerrar.Text = "Salir";
-        btnCerrar.UseVisualStyleBackColor = true;
-        // 
         // dgvInformacion
         // 
         dgvInformacion.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -80,12 +71,23 @@ partial class frmInformacion
         dgvInformacion.TabIndex = 0;
         dgvInformacion.Text = "dataGridView1";
         // 
+        // btnCerrar
+        // 
+        btnCerrar.Location = new System.Drawing.Point(549, 56);
+        btnCerrar.Name = "btnCerrar";
+        btnCerrar.Size = new System.Drawing.Size(191, 42);
+        btnCerrar.TabIndex = 0;
+        btnCerrar.Text = "Salir";
+        btnCerrar.UseVisualStyleBackColor = true;
+        btnCerrar.Click += btnCerrar_Click;
+        // 
         // frmInformacion
         // 
-        AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
+        AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
         AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
         ClientSize = new System.Drawing.Size(800, 450);
         Controls.Add(splitContainer1);
+        Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
         Text = "frmInformacion";
         Load += frmInformacion_Load;
         splitContainer1.Panel1.ResumeLayout(false);

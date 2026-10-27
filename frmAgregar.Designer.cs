@@ -37,8 +37,8 @@ partial class frmAgregar
         label4 = new System.Windows.Forms.Label();
         label5 = new System.Windows.Forms.Label();
         txtNombre = new System.Windows.Forms.TextBox();
-        txtApPaterno = new System.Windows.Forms.TextBox();
-        txtApMaterno = new System.Windows.Forms.TextBox();
+        txtPaterno = new System.Windows.Forms.TextBox();
+        txtMaterno = new System.Windows.Forms.TextBox();
         txtTelefono = new System.Windows.Forms.TextBox();
         txtCorreo = new System.Windows.Forms.TextBox();
         btnAgregar = new System.Windows.Forms.Button();
@@ -89,35 +89,35 @@ partial class frmAgregar
         // 
         txtNombre.Location = new System.Drawing.Point(18, 54);
         txtNombre.Name = "txtNombre";
-        txtNombre.Size = new System.Drawing.Size(360, 39);
+        txtNombre.Size = new System.Drawing.Size(360, 23);
         txtNombre.TabIndex = 5;
         // 
-        // txtApPaterno
+        // txtPaterno
         // 
-        txtApPaterno.Location = new System.Drawing.Point(18, 130);
-        txtApPaterno.Name = "txtApPaterno";
-        txtApPaterno.Size = new System.Drawing.Size(360, 39);
-        txtApPaterno.TabIndex = 6;
+        txtPaterno.Location = new System.Drawing.Point(18, 130);
+        txtPaterno.Name = "txtPaterno";
+        txtPaterno.Size = new System.Drawing.Size(360, 23);
+        txtPaterno.TabIndex = 6;
         // 
-        // txtApMaterno
+        // txtMaterno
         // 
-        txtApMaterno.Location = new System.Drawing.Point(18, 205);
-        txtApMaterno.Name = "txtApMaterno";
-        txtApMaterno.Size = new System.Drawing.Size(360, 39);
-        txtApMaterno.TabIndex = 7;
+        txtMaterno.Location = new System.Drawing.Point(18, 205);
+        txtMaterno.Name = "txtMaterno";
+        txtMaterno.Size = new System.Drawing.Size(360, 23);
+        txtMaterno.TabIndex = 7;
         // 
         // txtTelefono
         // 
         txtTelefono.Location = new System.Drawing.Point(18, 285);
         txtTelefono.Name = "txtTelefono";
-        txtTelefono.Size = new System.Drawing.Size(360, 39);
+        txtTelefono.Size = new System.Drawing.Size(360, 23);
         txtTelefono.TabIndex = 8;
         // 
         // txtCorreo
         // 
         txtCorreo.Location = new System.Drawing.Point(18, 368);
         txtCorreo.Name = "txtCorreo";
-        txtCorreo.Size = new System.Drawing.Size(360, 39);
+        txtCorreo.Size = new System.Drawing.Size(360, 23);
         txtCorreo.TabIndex = 9;
         // 
         // btnAgregar
@@ -141,21 +141,22 @@ partial class frmAgregar
         // 
         // frmAgregar
         // 
-        AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
+        AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
         AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
         ClientSize = new System.Drawing.Size(396, 539);
         Controls.Add(btnCerrar);
         Controls.Add(btnAgregar);
         Controls.Add(txtCorreo);
         Controls.Add(txtTelefono);
-        Controls.Add(txtApMaterno);
-        Controls.Add(txtApPaterno);
+        Controls.Add(txtMaterno);
+        Controls.Add(txtPaterno);
         Controls.Add(txtNombre);
         Controls.Add(label5);
         Controls.Add(label4);
         Controls.Add(label3);
         Controls.Add(label2);
         Controls.Add(label1);
+        Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
         Text = "Agregar";
         ResumeLayout(false);
         PerformLayout();
@@ -167,8 +168,8 @@ partial class frmAgregar
     private System.Windows.Forms.Label label4;
     private System.Windows.Forms.Label label5;
     private System.Windows.Forms.TextBox txtNombre;
-    private System.Windows.Forms.TextBox txtApPaterno;
-    private System.Windows.Forms.TextBox txtApMaterno;
+    private System.Windows.Forms.TextBox txtPaterno;
+    private System.Windows.Forms.TextBox txtMaterno;
     private System.Windows.Forms.TextBox txtTelefono;
     private System.Windows.Forms.TextBox txtCorreo;
     private System.Windows.Forms.Button btnAgregar;

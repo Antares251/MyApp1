@@ -75,6 +75,8 @@ public partial class frmAgregar : Form
             {
                 AgregarParametrosOriginales(comando);
             }
+            
+            
         }
 
         bool resultado = datos.ejecutar(comando);

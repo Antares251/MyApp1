@@ -132,19 +132,24 @@ public partial class frmInformacion : Form
             registro["telefono"],
             registro["correo"]
         };
+        
+        
     }
 
     private static string CrearFiltroPorValores()
     {
         string[] columnas = { "nombre", "paterno", "materno", "telefono", "correo" };
-        return string.Join(" AND ", columnas.Select((columna, indice) => $"([{columna}]= {indice} OR ([{columna}] IS NULL AND @original{indice} IS NULL))"));
+        return string.Join(" AND ", columnas.Select((columna, indice) => $"([{columna}]= @original{indice} OR ([{columna}] IS NULL AND @original{indice} IS NULL))"));
     }
 
     private static void AgregarParametrosOriginales(SqlCommand comando, object[] valores)
+    
     {
         for (int indice = 0; indice < valores.Length; indice++)
+        
+        
         {
-            comando.Parameters.AddWithValue($"{indice}", valores[indice]);
+            comando.Parameters.AddWithValue($"@original{indice}", valores[indice]);
         }
     }
 
